@@ -88,7 +88,7 @@ async function connect() {
 
   try {
     pc = new RTCPeerConnection({
-      iceServers: [{ urls: 'stun:stun.l.google.com:19302' }],
+      iceServers: [{ urls: 'stun:stun.miwifi.com:3478' }],
     })
 
     // 只接收视频和音频

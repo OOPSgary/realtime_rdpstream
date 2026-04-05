@@ -41,6 +41,6 @@ go run main.go
 
 ## 说明
 
-- 局域网使用，STUN 使用 Google `stun.l.google.com:19302`
+- 局域网使用，STUN 使用小米 `stun.miwifi.com:3478`（国内可用）
 - 支持 Chrome 92+ 和 iOS 12 Safari（H.264 + PCMA/PCMU fallback）
 - 同时只支持一个推流端（单主播）
