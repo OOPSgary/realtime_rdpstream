@@ -1,0 +1,22 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# Frontend
+frontend/node_modules/
+# 仅忽略构建产物，保留占位 index.html
+frontend/dist/assets/
+frontend/dist/*.js
+frontend/dist/*.css
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
