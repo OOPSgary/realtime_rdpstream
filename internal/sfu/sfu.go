@@ -105,11 +105,11 @@ func newWebRTCAPI() (*webrtc.API, error) {
 	), nil
 }
 
-// peerConnectionConfig 返回 WebRTC 连接配置（使用 Google STUN）
+// peerConnectionConfig 返回 WebRTC 连接配置（使用国内可用的 STUN）
 func peerConnectionConfig() webrtc.Configuration {
 	return webrtc.Configuration{
 		ICEServers: []webrtc.ICEServer{
-			{URLs: []string{"stun:stun.l.google.com:19302"}},
+			{URLs: []string{"stun:stun.miwifi.com:3478"}},
 		},
 	}
 }
